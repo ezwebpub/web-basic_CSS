@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Position sticky</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .wrapper {
+      width: 100%;
+      max-width: 600px;
+      margin: 60px auto 200px;
+    }
+
+    .content {
+      padding: 0 15px;
+      width: 380px;
+    }
+
+    .content h1 {
+      margin-top: 0;
+    }
+
+    .sidebar {
+      padding: 20px;
+      width: 170px;
+      background-color: #434A54;
+      color: #fff;
+    }
+
+    .sidebar h3 {
+      margin: 0;
+    }
+
+    .content,
+    .sidebar {
+      float: left;
+    }
+
+    .cf:after {
+      content: " ";
+      display: block;
+      clear: both;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="wrapper cf">
+    <div class="content">
+      <h1>Scroll Down!</h1>
+      <p>
+        position: sticky는 요소가 일반 문서 흐름에 따라 배치되다가, 스크롤 위치가 특정 임계점에 도달하면 고정 위치처럼 동작하는 속성입니다. top, left, right, bottom 값 중
+        하나 이상과 함께 사용되어야 하며, 해당 위치를 기준으로 스크롤 시 고정됩니다. 부모 요소의 영역을 벗어나면 고정이 해제됩니다. 주로 헤더나 사이드바 고정에 사용되며, relative와 fixed의
+        중간 성격을 가집니다.
+      </p>
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
+        quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+        ultricies mi vitae est. Mauris placerat eleifend leo.
+      </p>
+
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
+        quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+        ultricies mi vitae est. Mauris placerat eleifend leo.
+      </p>
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
+        quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+        ultricies mi vitae est. Mauris placerat eleifend leo.
+      </p>
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
+        quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+        ultricies mi vitae est. Mauris placerat eleifend leo.
+      </p>
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
+        quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+        ultricies mi vitae est. Mauris placerat eleifend leo.
+      </p>
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
+        quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+        ultricies mi vitae est. Mauris placerat eleifend leo.
+      </p>
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
+        quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+        ultricies mi vitae est. Mauris placerat eleifend leo.
+      </p>
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
+        quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+        ultricies mi vitae est. Mauris placerat eleifend leo.
+      </p>
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
+        quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+        ultricies mi vitae est. Mauris placerat eleifend leo.
+      </p>
+
+    </div>
+    <div class="sidebar">
+      <h3>Sidebar</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab maxime fugiat perspiciatis.</p>
+    </div>
+  </div>
+
+</body>
+
+</html>

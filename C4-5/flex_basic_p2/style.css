@@ -1,0 +1,15 @@
+.wrap{
+	width: 500px;
+	margin:20px auto;
+	border:1px solid #3498db;
+	flex-direction:row;
+	height: 500px;
+}
+
+.wrap div{
+	background: #3498db;
+	color:#fff;
+	padding: 20px;
+}
+.wrap div:last-child{
+}
